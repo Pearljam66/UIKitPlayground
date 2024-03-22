@@ -1,6 +1,8 @@
 import UIKit
 
 // MARK: Application
+// shared - type property that returns a reference to the instance of the UIApplication class created for our application.
+// delegate - this property returns a reference to the object assigned as the delegate of the UIApplication object.
 let app = UIApplication.shared
 
 if app.supportsMultipleScenes {
@@ -27,3 +29,11 @@ let pixelsHeight = screen.nativeBounds.size.height
 print("Width \(pixelsWidth)x Height \(pixelsHeight) ")
 
 print("Scale: \(screen.scale)")
+
+// MARK: Windows
+
+// UIWindow class - creates the object that manages the windows in the app.
+// rootViewController - sets or returns a reference to the object that controls the app's initial view.
+// isKeyWindow - the window currently in charge of receiving input from the user.
+// makeKeyAndVisible() - This method positions the window in front of any other windows that may exist for the app and makes it visible.
+
