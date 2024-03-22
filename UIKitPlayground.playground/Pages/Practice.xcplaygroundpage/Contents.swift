@@ -6,9 +6,9 @@ import UIKit
 let app = UIApplication.shared
 
 if app.supportsMultipleScenes {
-    print("Multiple Windows app")
+  //  print("Multiple Windows app")
 } else {
-    print("Single Window App")
+ //   print("Single Window App")
 }
 
 // MARK: Device
@@ -57,3 +57,5 @@ subview2.backgroundColor = UIColor.systemGray4
 
 container.addSubview(subview1)
 container.addSubview(subview2)
+
+// MARK: Scenes
